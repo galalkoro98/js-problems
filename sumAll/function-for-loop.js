@@ -15,9 +15,9 @@ const sumAll = (number) =>{
         return "please type bigger than 1"
     }
 
-    for (let number = 0; number <= 5; number++) {
-       sum += number;
-       console.log('+' + number);
+    for (let result = 0; result <= number; result++) {
+       sum += result;
+       console.log('+' + result);
     }
     return sum;
 }

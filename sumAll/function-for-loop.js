@@ -22,4 +22,4 @@ const sumAll = (number) =>{
     return sum;
 }
 
-console.log( '= ' + sumAll(5));
+console.log('= ' + sumAll(5));// if a user add a nummber will alwys increase the nummber that added for example 6 the rusult will be 21 and so on 

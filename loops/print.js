@@ -15,10 +15,10 @@ for(let i = 10; i <= 30; i++){
         
     }
 
-if (i % 4) {
+   if (i % 4) {
     console.log(num);
     
-}
+   }
 
 if (i % 5) {
     console.log(num);

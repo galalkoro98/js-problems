@@ -11,15 +11,14 @@
 //Tips : [String split method](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/split)
 
 
-let imageFormat = 'image.png';
-let natureFormat = 'nature.pdf';
-let babyFormat = 'baby.jpeg';
-
 
 const findFileFormat = (string) => {
 
-    // your code here 
+    // your code here
+    const extensionFile = string.split('.'); 
+    console.log(extensionFile[0]);
+    return extensionFile;
    
 }
 
-console.log(findFileFormat());
+console.log(findFileFormat('nature.pdf'));

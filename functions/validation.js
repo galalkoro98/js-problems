@@ -4,6 +4,7 @@ function validateString(string) {
 
     let emptyString = '';
     let str = string;
+  
    
  
     if (str === emptyString) {
@@ -12,10 +13,10 @@ function validateString(string) {
     }else if (str.length > 10) {
         return "long";
         
-    } else if (str >= "@" || str == str + "@") {
+    } else if (str >= "@" || str === str.length + "@") {
         return "It should not include @";
         
-    } else if (str) {
+    } else{
         return "successful";
     
     } 
@@ -24,5 +25,5 @@ function validateString(string) {
     
 }
 
-console.log(validateString("@"));
+console.log(validateString("gggaaa"));
 

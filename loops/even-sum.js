@@ -18,4 +18,4 @@ const findEvenSums = (a, b)=>{
 
 }
 
-console.log(findEvenSums("14", "2"));
+console.log(findEvenSums("15", "10"));

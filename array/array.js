@@ -13,7 +13,7 @@ function checkEvenNumber(numbers) {
  
     numbers.forEach(num => {
         if (num % 2 === 0) {
-            console.log(num); 
+           return num;
         };
     });
 };

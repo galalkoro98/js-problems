@@ -17,7 +17,7 @@
 
 function guessGame(number) {
     for(let i = 1; i <= 5; i++){
-        let argument;
+        // let argument;
         argument += i;
 
         if (number > 5 || number === 3) {

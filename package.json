@@ -1,0 +1,24 @@
+{
+  "name": "js-problems",
+  "version": "1.0.0",
+  "description": "js mini project to master a javascript",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage"
+    
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/galalkoro98/js-problems.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/galalkoro98/js-problems/issues"
+  },
+  "homepage": "https://github.com/galalkoro98/js-problems#readme",
+  "devDependencies": {
+    "jest": "^29.2.1"
+  }
+}

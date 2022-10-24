@@ -17,7 +17,7 @@ const calculateEarnings = (earningsArr, spendingArr, day) =>{
 
     const weekdays = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'];
     const indexofday = weekdays.indexOf(day);
-    
+  
     const earnings = earningsArr.slice(0, indexofday +1);
     const spending = spendingArr.slice(0, indexofday +1);
 

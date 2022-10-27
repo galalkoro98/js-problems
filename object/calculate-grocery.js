@@ -29,4 +29,4 @@ const calculateEarnings = (earningsArr, spendingArr, day) =>{
 
 
  console.log(calculateEarnings([40, 30, 25, 10, 39, 99, 100], [-10, -5, -20, -3, -5, -9, -10], 'Wednesday'));
-//  console.log(calculateEarnings([4, 15, 50, 0, 39, 200, 0], [-80, -4, -56, 0, 0, -18, -30], 'Saturday'));
+ console.log(calculateEarnings([4, 15, 50, 0, 39, 200, 0], [-80, -4, -56, 0, 0, -18, -30], 'Saturday'));
